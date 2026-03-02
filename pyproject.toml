@@ -1,0 +1,32 @@
+[project]
+name = "interview-coach"
+version = "0.1.0"
+description = "AI Interview Coach - A multi-agent system for interview preparation and coaching"
+readme = "README.md"
+authors = [
+    { name = "waleed260", email = "vkdeku20@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-generativeai>=0.8.0",
+    "openai>=1.12.0",
+    "rich>=14.3.3",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+]
+
+[project.scripts]
+interview-coach = "interview_coach:main"
+
+[project.scripts]
+interview-coach = "interview_coach:main"
+
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
