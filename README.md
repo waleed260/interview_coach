@@ -103,4 +103,41 @@ The system follows a multi-agent pattern:
 - Assesses clarity, conciseness, and competency alignment
 - Provides constructive feedback and improvement suggestions
 - Generates comprehensive performance summaries
+## Technologies Used
 
+- Python 3.12+
+- Google Gemini API (or OpenAI API as fallback)
+- Rich (for enhanced terminal output)
+- Modular agent architecture
+
+## Customization
+
+The system is designed to be easily customizable:
+
+- Modify agent prompts in their respective files
+- Extend evaluation criteria in the Feedback Coach
+- Add new question templates to the Job Strategist
+- Customize feedback generation logic
+
+## Troubleshooting
+
+If you encounter issues:
+1. Verify your API key is correctly set in the .env file
+2. Check that you have internet connectivity
+3. Ensure you have the required dependencies installed
+4. Confirm your API provider has sufficient quota
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+MIT License
+
+## Support
+
+If you have questions or need assistance:
+- Check the documentation
+- Open an issue in the repository
+- Review the example configurations
